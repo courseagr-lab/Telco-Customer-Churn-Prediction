@@ -1,0 +1,34 @@
+# ============================================================================
+# requirements.txt
+# Telco Customer Churn Prediction 2026
+#
+# Versi di bawah telah diuji end-to-end (data generation, cleaning, feature
+# engineering, training XGBoost, SHAP, dan Streamlit dashboard) pada
+# Python 3.11+.
+#
+# Install:
+#   pip install -r requirements.txt
+# ============================================================================
+
+# --- Core data processing ---
+pandas==3.0.2
+numpy==2.4.4
+
+# --- Machine learning ---
+scikit-learn==1.8.0
+xgboost==3.2.0
+shap==0.52.0
+
+# --- Visualization (notebooks) ---
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# --- Dashboard ---
+streamlit==1.58.0
+plotly==6.8.0
+
+# --- Notebook execution ---
+jupyter==1.1.1
+nbformat==5.10.4
+nbconvert==7.17.1
+ipykernel==7.3.0

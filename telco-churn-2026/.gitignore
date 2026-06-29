@@ -1,0 +1,82 @@
+# ============================================================================
+# .gitignore — Telco Customer Churn Prediction 2026
+# ============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+*.pem
+secrets.toml
+.streamlit/secrets.toml
+
+# --- Data files (besar / sensitif) ---
+# Uncomment baris berikut jika data TIDAK ingin di-commit ke repo
+# (untuk demo project ini, data sintetis di-commit agar reproducible)
+# data/raw/*.csv
+# data/processed/*.csv
+
+# --- Model artifacts ---
+# Uncomment jika model terlalu besar untuk git (gunakan Git LFS / DVC)
+# models/*.pkl
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Streamlit cache ---
+.streamlit/
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Misc ---
+*.bak
+*.tmp
